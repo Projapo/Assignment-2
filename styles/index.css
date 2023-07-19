@@ -8,11 +8,13 @@
 }
 
 /* Header Style */
-.nav-container{
+ .nav-container{
     display: flex;
-    justify-content: center;
-    gap: 600px;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 .d1{
     display: flex;
     align-items: center;
@@ -22,9 +24,8 @@
     width: 86px;
     height: 40px;
 }
-.dd2{
-    list-style: none;
-}
+
+
 .yt{
     width:36px;
 }
