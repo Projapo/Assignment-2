@@ -279,7 +279,7 @@ section > div .pici:hover{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 120px 0 60px 0;
+    padding: 120px 0 40px 0;
 }
 .fp{
     color: #FFF;
@@ -290,11 +290,13 @@ section > div .pici:hover{
 
 ul > li{
     color: #FFF;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    gap:30px;
+    text-align: center;
 }
 nav > li{
     display: flex;
-    gap: 30px;
 }
 
 
