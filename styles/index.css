@@ -68,14 +68,14 @@ nav{
 
 }
 /* Banner Style */
- 
+
 .banner-container{
-    background-image: url(/images/Group\ 14.png);
-    background-repeat: no-repeat;
-    background-size: 700px 600px; 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 700px 600px; 
     padding: 50 240px;
     gap: 200px;
 }
@@ -136,6 +136,29 @@ nav{
     font-size: 1.2rem;
     font-weight: 600;
     border: none;
+}
+/* Online Videos section */
+ 
+.online{
+    text-align: center;
+    margin-top: 130px;
+    gap: 10px;
+}
+.parar{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.hh{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.fun{
+    color: #FF42A5;
 }
 /* Responsive style mobile */
 
