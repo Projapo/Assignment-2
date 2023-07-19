@@ -224,6 +224,47 @@ nav{
 .lol{
     text-align: right;
 }
+/* Section before footer style */
+
+.game{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.pop{
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.pici{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+/*
+.sections{
+    display: flex;
+    justify-content: center;
+} */
+.d1{
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.d2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.pop{
+    font-size: 1rem;
+    font-weight: 600;
+}
+  .pici:hover{
+    border: #FF42A5;
+}
 
 
 /* Responsive style mobile */
