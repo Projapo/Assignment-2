@@ -247,6 +247,10 @@ nav{
     display: flex;
     justify-content: center;
 } */
+.sections{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 .d1{
    justify-content: center;
    margin-bottom: 30px;
@@ -262,9 +266,14 @@ nav{
     font-size: 1rem;
     font-weight: 600;
 }
-  .pici:hover{
-    border: #FF42A5;
+section > div .pici:hover{
+    cursor:pointer;
+    border: 1px solid #ff42A5;
+    border-radius: 50px;
+    padding:10px;
+
 }
+
 
 
 /* Responsive style mobile */
