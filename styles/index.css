@@ -72,19 +72,72 @@ nav{
 .banner-container{
     background-image: url(/images/Group\ 14.png);
     background-repeat: no-repeat;
+    background-size: 700px 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50 240px;
+    gap: 200px;
+}
+
+.play{
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.banner-des{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.goat{
+    text-align: left; 
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: rgb(206, 59, 198);
+    margin-bottom: 10px;
+
 }
 
 .gp18{
     height: 600px;
+    width: 400px;
     
 }
+.para{
+    color: #534C64;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 17px;
 
+}
 
+.btn1{
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    margin-right: 10px;
+}
+.btn{
+    margin-top: 20px;
 
+}
+.btn2{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 18px 35px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+}
 /* Responsive style mobile */
 
 @media screen and (max-width:576px) {
