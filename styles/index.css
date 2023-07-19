@@ -68,6 +68,20 @@ nav{
 
 }
 /* Banner Style */
+ 
+.banner-container{
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50 240px;
+}
+
+.gp18{
+    height: 600px;
+    
+}
 
 
 
