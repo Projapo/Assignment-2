@@ -186,6 +186,9 @@ nav{
 .play-btn{
     transform: scale(1) translateX(-10px) translateY(-140px);
 }
+.heds{
+    font-size: 2rem;
+}
 
 /* Play Instantly section */
 
@@ -198,7 +201,8 @@ nav{
 }
 .instant{
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content: center;
 }
 
 /* Responsive style mobile */
