@@ -273,6 +273,30 @@ section > div .pici:hover{
     padding:10px;
 
 }
+/* Footer Style */
+.fh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 120px 0 60px 0;
+}
+.fp{
+    color: #FFF;
+}
+.footer{
+    background-color: #0B0223;
+}
+
+ul > li{
+    color: #FFF;
+    font-size: 1rem;
+}
+nav > li{
+    display: flex;
+    gap: 30px;
+}
+
 
 
 
@@ -327,6 +351,10 @@ section > div .pici:hover{
 }
 .downloads{
     margin-left: 185px;
+}
+.d1, .d2 {
+    flex-direction: column;
+    align-items: center;
 }
 }
 
