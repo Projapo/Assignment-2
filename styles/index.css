@@ -187,6 +187,20 @@ nav{
     transform: scale(1) translateX(-10px) translateY(-140px);
 }
 
+/* Play Instantly section */
+
+.pic1{
+    width: 400px;
+}
+.pic2{
+    width:200px;
+    transform: translateY(-160px) translateX(-100px);
+}
+.instant{
+    display: flex;
+    align-items: center;
+}
+
 /* Responsive style mobile */
 
 @media screen and (max-width:576px) {
