@@ -278,7 +278,7 @@ section > div .pici:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap:10px;
     padding: 120px 0 40px 0;
 }
 .fp{
@@ -293,14 +293,32 @@ ul > li{
     font-size: 1.2rem;
     margin-left: 50px;
     gap:30px;
-    text-align: center;
+   
 }
 nav > li{
     display: flex;
 }
 
-
-
+.imgs{
+    width: 40px;
+    height: 40px;
+}
+.img{
+    gap: 60px;
+    margin-left: 650px;
+    
+}
+.cont{
+    margin-left: 150px;
+    padding-bottom: 10px;
+}
+.hhh{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 100px;
+}
 
 /* Responsive style mobile */
 
