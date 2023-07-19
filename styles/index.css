@@ -72,7 +72,7 @@ nav{
 .banner-container{
     background-image: url(/images/Group\ 14.png);
     background-repeat: no-repeat;
-    background-size: 700px 600px;
+    background-size: 700px 600px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,6 @@ nav{
 
 .play{
     color: #0B0223;
-    /* text-align: center; */
     font-size: 2.3rem;
     font-weight: 600;
 }
@@ -151,8 +150,14 @@ nav{
     nav > ul{
         flex-direction: column;
 
-    }   
-} 
+    } 
+    
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 20px;
+    }
+}
 
 /* Responsive medium device */
 
@@ -168,5 +173,11 @@ nav{
     nav > ul{
         flex-direction: column;
     
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 20px;
     }
 }
