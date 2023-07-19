@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,800&family=Work+Sans:wght@400;500;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Header Style */
@@ -15,7 +19,7 @@
     height: 50px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    color: color: #3C354F;
+    color: #3C354F;
     font-size: 1.2rem;
     font-weight: 500;
 }
