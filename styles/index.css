@@ -8,6 +8,23 @@
 }
 
 /* Header Style */
+.nav-container{
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+}
+.d1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.frame{
+    width: 86px;
+    height: 40px;
+}
+.dd2{
+    list-style: none;
+}
 .yt{
     width:36px;
 }
@@ -24,3 +41,18 @@
     font-weight: 500;
 }
 
+.text{
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+.pink{
+    color: #ff42A5;
+}
+.head{
+   /*text-align: center; */
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
