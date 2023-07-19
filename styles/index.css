@@ -296,9 +296,24 @@ nav{
     
     }
 
-    .banner-container{
+    .banner-container, .cards{
         flex-direction: column-reverse;
         width: 100%;
         gap: 20px;
     }
-}
+    .instant{
+        flex-direction: column;
+        align-items: center;
+        margin-left: -160px;
+        margin-top: -150px;
+    }
+    .heds, .lol{
+        text-align: center;
+    }
+    .online{
+        margin-top: -50px;
+    }
+
+
+    }
+
