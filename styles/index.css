@@ -201,9 +201,26 @@ nav{
 }
 .instant{
     display: flex;
-    align-items:center;
     justify-content: center;
+    padding: 0 200px;
 }
+.heds{
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;}
+
+.downloads{
+    margin-left: 350px;
+}
+.no{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.lol{
+    text-align: right;
+}
+
 
 /* Responsive style mobile */
 
