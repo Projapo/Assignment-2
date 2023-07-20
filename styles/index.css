@@ -405,10 +405,6 @@ nav > li{
     flex-direction: column;
 }
       
-.cont{
-    margin-right: 150px;
-    
-}
 .img{
     flex-direction: column;
     justify-content: center;
@@ -424,6 +420,13 @@ nav > li{
     gap: 30px;
     align-items: center;
 }
+.cont > ul{
+   margin-right:150px;
+} 
+.cards{
+    align-items: center;
+}
+
 }
 
 
@@ -461,7 +464,23 @@ nav > li{
     .online{
         margin-top: -50px;
     }
+    .cards{
+        align-items: center;
+    }
+    .d1{
+        flex-direction: column;
+    }
+    .d2{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
 }
+   .img{
+    margin-top: 50px;
+   }   
+   
+   .cont > ul{
+    margin-right:150px;
+ } 
 
-
-
+}
