@@ -284,11 +284,13 @@ opacity: 1;
    margin-bottom: 30px;
 }
 
+.d3{
+    display: flex;
+    justify-content: center;
+}
 .d2{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-    gap: 20px;
 }
 .pop{
     font-size: 1rem;
@@ -332,8 +334,9 @@ nav > li{
     height: 40px;
 }
 .img{
-    gap: 60px;
-    margin-left: 650px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
     
 }
 .cont{
@@ -401,16 +404,20 @@ nav > li{
 .downloads{
     margin-left: 185px;
 }
-.d1, .d2 {
-    flex-direction: column;
-    align-items: center;
-}
+
 .footer{
     flex-direction: column;
+}
+.section{
+    display: grid;
+    grid-template-columns: (3,1fr);
 }
 .cont{
     margin-right: 150px;
     margin-top: -100px;
+}
+.img{
+    flex-direction: column;
 }
 }
 
