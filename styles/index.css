@@ -43,13 +43,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 40px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     color: #3C354F;
     font-size: 1.2rem;
     font-weight: 500;
+    padding:10px;
 }
 
 .text{
@@ -183,9 +184,12 @@ nav{
         margin-top: 20px;
         margin-bottom: 50px;
 }
-.play-btn{
-    transform: scale(1) translateX(-10px) translateY(-140px);
+.wat{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#FF42A5;
 }
+
 .heds{
     font-size: 2rem;
 }
@@ -309,12 +313,13 @@ nav > li{
     
 }
 .cont{
-    margin-left: 150px;
+    margin-left: 120px;
     padding-bottom: 10px;
 }
 .hhh{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
+    align-content: center;
     font-size: 1rem;
     font-weight: 500;
     padding-bottom: 100px;
